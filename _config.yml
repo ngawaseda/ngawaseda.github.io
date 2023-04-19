@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gia H Ngo
-email: ngohoanggia@gmail.com
-description: Build useful things
+title: Nga Nguyen
+email: linhnga.waseda@gmail.com
+description: a young economist in love with data science
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ngohgia.github.io"
-github_username:  ngohgia
+url: "https://ngawaseda.github.io"
+github_username:  ngawaseda
 
 # Build settings
 theme: minima
