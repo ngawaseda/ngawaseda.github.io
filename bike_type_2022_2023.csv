@@ -1,6 +1,0 @@
-count,rideable_type,usertype,avg_duration
-181401,docked_bike,Customer,02:03:54.73714
-920849,classic_bike,Customer,00:28:35.814457
-1302538,electric_bike,Customer,00:15:57.15635
-1782709,electric_bike,Subscriber,00:11:18.916325
-1860418,classic_bike,Subscriber,00:13:42.446254
