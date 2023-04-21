@@ -65,3 +65,11 @@ There were 2 peaks of rides for Subscribers: around 2-3pm (probably after a late
 
 ![Figure 5](./assets/images/bike_sharing/fig5.png)
 
+# Recommendations
+To convert the casual riders into long-term members, Divvy bike-sharing programs could consider issuing new types of long-term passes. This new kind would be cheaper than the current annual subscription but has more flexibility, such as: 
+1. Annual pass for half-day use only
+2. Seasonal pass: winter/spring pass and summer/autumn pass (low and high seasons)
+3. Weekend pass and Weekday pass 
+4. Inner zone (for short trips) and Outer zone (for further trips)
+
+Besides, a marketing campaign for casual customers only could be more efficient if we advertising the appealing of electrical bikes for long-distance trip in weekends. As soon as customers realize they can have more flexibility in using their riding passes, they would have more incentive to buy long-term passes.
