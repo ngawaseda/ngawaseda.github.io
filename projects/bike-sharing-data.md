@@ -24,7 +24,7 @@ While offering pricing flexibility helps to attract more customers, the marketin
 - Time coverage: The available data was dated from 2013. However, due to the changing atmosphere of the sharing economy and technology, I focus only on the last 14 months 1/2022 - 2/2023. 
 
 
-# Data cleaning and transforming
+## Data cleaning and transforming
 
 - Import to TablePlus for further analysis using SQL. Convert data types as necessary.
 - Filter out observations with invalid values: Several trips had stop time before start time 
