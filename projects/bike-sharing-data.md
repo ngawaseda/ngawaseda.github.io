@@ -9,16 +9,15 @@ permalink: /bike-sharing-data
 </div>
 
 
-# Rationale
+## Rationale
 The sharing economy in the eco-conscious era inevitably led to the rise of bike-sharing business. In the US, the City of Chicago cooperates with Lyft Bikes and Scooters to operate the Divvy bike-sharing service to promote bbicycling as an alternative mode of transportation. 
 
 Since its launch in 2013, Divvy has expanded its fleet to 5,824 bikes that are monitored and secured through a network of 692 stations throughout Chicago. The bikes can be picked up from one station and returned to another station at any time. Previously, Divvy's marketing approach focused on creating general awareness and attracting a broad range of customers by offering flexible pricing options, such as single-ride passes, full-day passes, and annual memberships. Casual riders who purchase single-ride or full-day passes are referred to as casual riders or Customers, while those who purchase annual memberships are members or Subscribers. Divvy's financial analysts have found that Subscribers are more profitable than Customers. 
 
 While offering pricing flexibility helps to attract more customers, the marketing team believes that maximizing the number of annual members will be crucial to future growth. Therefore, this analysis aims at examining historical bike trip data to understand the differences between the two sets of riders and to determine how to convert Customers into Subscribers.
 
----
 
-# Data source and validation
+## Data source and validation
 
 - Data source: data is available for download [here](https://divvy-tripdata.s3.amazonaws.com/index.html) for public use under agreement terms and conditions between Lyft Bikes and Scooters, LLC and the City of Chicago.
 - Geo-coverage: The program covers City of Chicago area and offers 3 flexible plans: single-ride and full-day passes (users are called Customers), and annual memberships (so-called Subscribers).
@@ -31,9 +30,8 @@ While offering pricing flexibility helps to attract more customers, the marketin
 - Filter out observations with invalid values: Several trips had stop time before start time 
 - Put NA value in case of inconsistent data categorization, i.e. column "rideable_type" or bike type has "docked bike", which is the general category of all Divvy bikes. It should be either of the 2 sub-categories "electric bike" and "classic bike". 
 
----
 
-# Results
+## Results
 #### 1. Subscibers prefer short trips on weekdays, Casual Customers prefer long trips in weekends
 ![Figure 1](./assets/images/bike_sharing/fig1.png)
 
@@ -65,7 +63,7 @@ There were 2 peaks of rides for Subscribers: around 2-3pm (probably after a late
 
 ![Figure 5](./assets/images/bike_sharing/fig5.png)
 
-# Recommendations
+## Recommendations
 To convert the casual riders into long-term members, Divvy bike-sharing programs could consider issuing new types of long-term passes. This new kind would be cheaper than the current annual subscription but has more flexibility, such as: 
 1. Annual pass for half-day use only
 2. Seasonal pass: winter/spring pass and summer/autumn pass (low and high seasons)
